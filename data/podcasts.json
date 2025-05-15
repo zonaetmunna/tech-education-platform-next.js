@@ -1,0 +1,371 @@
+{
+  "podcasts": [
+    {
+      "id": 1,
+      "title": "The Future of Web Development",
+      "description": "Discussing the latest trends and future directions in web development with industry experts.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "45:20",
+      "host": "John Doe",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Web Development",
+      "tags": ["Web Development", "Future Tech", "JavaScript"],
+      "listens": 8500,
+      "likes": 620,
+      "publishedAt": "2023-05-10",
+      "audioUrl": "https://example.com/podcasts/future-web-dev",
+      "transcript": "Today we're joined by three industry experts to discuss where web development is heading...",
+      "guests": [
+        {
+          "name": "Sarah Williams",
+          "title": "Senior Frontend Engineer at Google",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Michael Chen",
+          "title": "CTO at WebTech Solutions",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- The rise of WebAssembly\n- AI-assisted development\n- The future of JavaScript frameworks\n- Web3 and decentralized applications",
+      "relatedEpisodes": [3, 5, 8]
+    },
+    {
+      "id": 2,
+      "title": "Data Science in Production",
+      "description": "How to take data science projects from notebooks to production environments.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "52:15",
+      "host": "Lisa Wang",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Data Science",
+      "tags": ["Data Science", "Machine Learning", "Production"],
+      "listens": 6200,
+      "likes": 480,
+      "publishedAt": "2023-04-25",
+      "audioUrl": "https://example.com/podcasts/data-science-production",
+      "transcript": "Taking data science models from development to production is one of the biggest challenges...",
+      "guests": [
+        {
+          "name": "David Chen",
+          "title": "ML Engineer at Netflix",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Emily Rodriguez",
+          "title": "Data Science Manager at Spotify",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Model deployment strategies\n- Monitoring ML systems in production\n- DevOps for data science\n- Scaling machine learning pipelines",
+      "relatedEpisodes": [4, 7, 10]
+    },
+    {
+      "id": 3,
+      "title": "Modern JavaScript Frameworks",
+      "description": "Comparing popular JavaScript frameworks and when to use each one.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "48:30",
+      "host": "John Doe",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Web Development",
+      "tags": ["JavaScript", "React", "Vue", "Angular"],
+      "listens": 9800,
+      "likes": 720,
+      "publishedAt": "2023-03-15",
+      "audioUrl": "https://example.com/podcasts/js-frameworks",
+      "transcript": "The JavaScript ecosystem is constantly evolving, with new frameworks and libraries...",
+      "guests": [
+        {
+          "name": "Alex Johnson",
+          "title": "React Core Team Member",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Maria Garcia",
+          "title": "Vue.js Contributor",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- React vs Vue vs Angular\n- When to choose each framework\n- Performance considerations\n- Future developments in the framework space",
+      "relatedEpisodes": [1, 5, 9]
+    },
+    {
+      "id": 4,
+      "title": "AI Ethics and Responsible Development",
+      "description": "Exploring the ethical considerations in AI development and deployment.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "56:45",
+      "host": "Lisa Wang",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Artificial Intelligence",
+      "tags": ["AI", "Ethics", "Responsible AI"],
+      "listens": 5800,
+      "likes": 450,
+      "publishedAt": "2023-06-05",
+      "audioUrl": "https://example.com/podcasts/ai-ethics",
+      "transcript": "As AI becomes more prevalent in our society, we need to consider the ethical implications...",
+      "guests": [
+        {
+          "name": "Dr. James Wilson",
+          "title": "AI Ethics Researcher at MIT",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Sophia Lee",
+          "title": "Policy Director at AI Now Institute",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Bias in AI systems\n- Privacy concerns\n- Transparency and explainability\n- Regulatory approaches to AI",
+      "relatedEpisodes": [2, 7, 11]
+    },
+    {
+      "id": 5,
+      "title": "The State of TypeScript",
+      "description": "Discussing the current state of TypeScript and its impact on JavaScript development.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "42:15",
+      "host": "Sarah Williams",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Web Development",
+      "tags": ["TypeScript", "JavaScript", "Static Typing"],
+      "listens": 7500,
+      "likes": 580,
+      "publishedAt": "2023-02-20",
+      "audioUrl": "https://example.com/podcasts/typescript-state",
+      "transcript": "TypeScript has seen tremendous growth in recent years, becoming the preferred way to write JavaScript...",
+      "guests": [
+        {
+          "name": "Daniel Rosenwasser",
+          "title": "TypeScript Program Manager at Microsoft",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- TypeScript adoption trends\n- Recent and upcoming features\n- Type system improvements\n- Integration with popular frameworks",
+      "relatedEpisodes": [1, 3, 9]
+    },
+    {
+      "id": 6,
+      "title": "DevOps Best Practices",
+      "description": "Essential DevOps practices for modern software development teams.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "50:30",
+      "host": "Mike Johnson",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "DevOps",
+      "tags": ["DevOps", "CI/CD", "Infrastructure as Code"],
+      "listens": 6800,
+      "likes": 520,
+      "publishedAt": "2023-05-18",
+      "audioUrl": "https://example.com/podcasts/devops-practices",
+      "transcript": "DevOps has transformed how we build and deploy software, breaking down the traditional silos...",
+      "guests": [
+        {
+          "name": "Chris Taylor",
+          "title": "DevOps Engineer at Amazon",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Priya Patel",
+          "title": "Head of Platform Engineering at Stripe",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- CI/CD pipeline optimization\n- Infrastructure as Code\n- Monitoring and observability\n- Security in the DevOps lifecycle",
+      "relatedEpisodes": [8, 10, 12]
+    },
+    {
+      "id": 7,
+      "title": "Deep Learning Breakthroughs",
+      "description": "Recent breakthroughs in deep learning and their practical applications.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "58:20",
+      "host": "Lisa Wang",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Artificial Intelligence",
+      "tags": ["Deep Learning", "Neural Networks", "AI"],
+      "listens": 5500,
+      "likes": 430,
+      "publishedAt": "2023-04-10",
+      "audioUrl": "https://example.com/podcasts/deep-learning",
+      "transcript": "Deep learning continues to push the boundaries of what's possible in artificial intelligence...",
+      "guests": [
+        {
+          "name": "Dr. Andrew Thompson",
+          "title": "AI Researcher at DeepMind",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Dr. Michelle Kim",
+          "title": "Professor of Computer Science at Stanford",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Recent advances in transformer models\n- Multimodal learning\n- Reinforcement learning from human feedback\n- Practical applications in various industries",
+      "relatedEpisodes": [2, 4, 11]
+    },
+    {
+      "id": 8,
+      "title": "Cloud-Native Architecture",
+      "description": "Building scalable, resilient applications with cloud-native technologies.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "47:45",
+      "host": "Mike Johnson",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Cloud Computing",
+      "tags": ["Cloud", "Kubernetes", "Microservices"],
+      "listens": 7200,
+      "likes": 550,
+      "publishedAt": "2023-03-28",
+      "audioUrl": "https://example.com/podcasts/cloud-native",
+      "transcript": "Cloud-native architecture represents a fundamental shift in how we design and build applications...",
+      "guests": [
+        {
+          "name": "Robert Chen",
+          "title": "Cloud Architect at Google Cloud",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Jessica Martinez",
+          "title": "CTO at CloudScale",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Microservices architecture\n- Containerization with Docker and Kubernetes\n- Serverless computing\n- Service mesh technologies",
+      "relatedEpisodes": [6, 10, 12]
+    },
+    {
+      "id": 9,
+      "title": "Frontend Performance Optimization",
+      "description": "Strategies and techniques for optimizing frontend performance.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "44:10",
+      "host": "Sarah Williams",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Web Development",
+      "tags": ["Performance", "Web Vitals", "Optimization"],
+      "listens": 8100,
+      "likes": 610,
+      "publishedAt": "2023-06-12",
+      "audioUrl": "https://example.com/podcasts/frontend-performance",
+      "transcript": "Performance is a critical aspect of user experience, and optimizing frontend performance...",
+      "guests": [
+        {
+          "name": "Tom Wilson",
+          "title": "Web Performance Engineer at Vercel",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Ana Silva",
+          "title": "Frontend Architect at Shopify",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Core Web Vitals optimization\n- JavaScript performance\n- Image and asset optimization\n- Measuring and monitoring performance",
+      "relatedEpisodes": [1, 3, 5]
+    },
+    {
+      "id": 10,
+      "title": "Database Selection and Design",
+      "description": "How to choose the right database for your application and design it effectively.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "53:25",
+      "host": "David Chen",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Backend Development",
+      "tags": ["Databases", "SQL", "NoSQL", "Data Modeling"],
+      "listens": 6500,
+      "likes": 490,
+      "publishedAt": "2023-05-05",
+      "audioUrl": "https://example.com/podcasts/database-selection",
+      "transcript": "Choosing the right database technology is one of the most important architectural decisions...",
+      "guests": [
+        {
+          "name": "Mark Johnson",
+          "title": "Database Engineer at MongoDB",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Laura Thompson",
+          "title": "Data Architect at Snowflake",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- SQL vs NoSQL considerations\n- Data modeling best practices\n- Scaling strategies\n- Database performance optimization",
+      "relatedEpisodes": [2, 6, 12]
+    },
+    {
+      "id": 11,
+      "title": "The Rise of Generative AI",
+      "description": "Exploring the capabilities and implications of generative AI models like GPT and DALL-E.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "55:40",
+      "host": "Lisa Wang",
+      "hostAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Artificial Intelligence",
+      "tags": ["Generative AI", "GPT", "DALL-E", "AI"],
+      "listens": 9200,
+      "likes": 680,
+      "publishedAt": "2023-06-20",
+      "audioUrl": "https://example.com/podcasts/generative-ai",
+      "transcript": "Generative AI has captured the public imagination with models like GPT and DALL-E...",
+      "guests": [
+        {
+          "name": "Dr. Samuel Park",
+          "title": "AI Research Scientist at OpenAI",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Dr. Rachel Green",
+          "title": "Professor of AI Ethics at UC Berkeley",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Recent advances in generative models\n- Creative applications in art, writing, and code\n- Ethical considerations and potential risks\n- Future directions for generative AI",
+      "relatedEpisodes": [4, 7, 12]
+    },
+    {
+      "id": 12,
+      "title": "Blockchain and Web3 Development",
+      "description": "Understanding the technical aspects of blockchain and Web3 development.",
+      "coverImage": "/placeholder.svg?height=200&width=200",
+      "duration": "49:15",
+      "host": "Michael Lee",
+      "hostAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Blockchain",
+      "tags": ["Blockchain", "Web3", "Smart Contracts", "Ethereum"],
+      "listens": 7800,
+      "likes": 590,
+      "publishedAt": "2023-04-18",
+      "audioUrl": "https://example.com/podcasts/blockchain-web3",
+      "transcript": "Web3 represents a new paradigm for the internet, built on blockchain technology...",
+      "guests": [
+        {
+          "name": "Vitalik Buterin",
+          "title": "Co-founder of Ethereum",
+          "avatar": "/placeholder.svg"
+        },
+        {
+          "name": "Elena Rodriguez",
+          "title": "Smart Contract Developer at Consensys",
+          "avatar": "/placeholder.svg"
+        }
+      ],
+      "showNotes": "In this episode, we cover:\n- Smart contract development\n- Decentralized applications (dApps)\n- Web3 infrastructure\n- Security considerations in blockchain development",
+      "relatedEpisodes": [6, 8, 10]
+    }
+  ]
+}

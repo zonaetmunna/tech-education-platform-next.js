@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "avatar": "/placeholder.svg",
+      "role": "user",
+      "plan": "premium",
+      "status": "active",
+      "joinedAt": "2023-01-15",
+      "lastLogin": "2023-06-20",
+      "bio": "Software developer passionate about web technologies and continuous learning.",
+      "location": "San Francisco, CA",
+      "social": {
+        "twitter": "johnsmith",
+        "github": "johnsmith",
+        "linkedin": "john-smith-dev"
+      },
+      "preferences": {
+        "emailNotifications": true,
+        "darkMode": true,
+        "language": "en"
+      },
+      "enrolledCourses": [1, 3, 4, 8],
+      "completedCourses": [2, 5],
+      "watchedVideos": [1, 3, 5, 7, 9],
+      "listenedPodcasts": [1, 3, 5],
+      "readArticles": [1, 2, 5, 7],
+      "bookmarks": {
+        "courses": [6, 9],
+        "videos": [2, 4, 8],
+        "podcasts": [2, 4],
+        "articles": [3, 6, 8],
+        "roadmaps": [1, 3]
+      },
+      "progress": {
+        "courses": [
+          { "id": 1, "progress": 65, "lastAccessed": "2023-06-18" },
+          { "id": 3, "progress": 30, "lastAccessed": "2023-06-15" },
+          { "id": 4, "progress": 10, "lastAccessed": "2023-06-20" },
+          { "id": 8, "progress": 5, "lastAccessed": "2023-06-19" }
+        ],
+        "roadmaps": [
+          { "id": 1, "progress": 45, "lastAccessed": "2023-06-17" },
+          { "id": 3, "progress": 20, "lastAccessed": "2023-06-14" }
+        ]
+      },
+      "certificates": [
+        { "id": 1, "courseId": 2, "issueDate": "2023-03-10", "name": "Data Science Fundamentals" },
+        { "id": 2, "courseId": 5, "issueDate": "2023-05-22", "name": "Python for Beginners" }
+      ],
+      "subscription": {
+        "plan": "premium",
+        "startDate": "2023-01-15",
+        "renewalDate": "2023-07-15",
+        "paymentMethod": "credit_card",
+        "autoRenew": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@example.com",
+      "avatar": "/placeholder.svg",
+      "role": "user",
+      "plan": "free",
+      "status": "active",
+      "joinedAt": "2023-02-20",
+      "lastLogin": "2023-06-19",
+      "bio": "UX designer looking to expand my technical skills.",
+      "location": "Chicago, IL",
+      "social": {
+        "twitter": "sarahjohnson",
+        "dribbble": "sarahjohnson",
+        "linkedin": "sarah-johnson-ux"
+      },
+      "preferences": {
+        "emailNotifications": true,
+        "darkMode": false,
+        "language": "en"
+      },
+      "enrolledCourses": [5, 7],
+      "completedCourses": [],
+      "watchedVideos": [3, 7, 9],
+      "listenedPodcasts": [5, 9],
+      "readArticles": [5, 8],
+      "bookmarks": {
+        "courses": [1, 4],
+        "videos": [1, 5],
+        "podcasts": [1],
+        "articles": [1, 7],
+        "roadmaps": [7]
+      },
+      "progress": {
+        "courses": [
+          { "id": 5, "progress": 40, "lastAccessed": "2023-06-17" },
+          { "id": 7, "progress": 25, "lastAccessed": "2023-06-19" }
+        ],
+        "roadmaps": [{ "id": 7, "progress": 30, "lastAccessed": "2023-06-18" }]
+      },
+      "certificates": []
+    },
+    {
+      "id": 3,
+      "name": "Michael Chen",
+      "email": "michael.chen@example.com",
+      "avatar": "/placeholder.svg",
+      "role": "instructor",
+      "plan": "premium",
+      "status": "active",
+      "joinedAt": "2022-11-10",
+      "lastLogin": "2023-06-20",
+      "bio": "Full-stack developer and educator with 10+ years of experience.",
+      "location": "Seattle, WA",
+      "social": {
+        "twitter": "michaelchen",
+        "github": "michaelchen",
+        "linkedin": "michael-chen-dev"
+      },
+      "preferences": {
+        "emailNotifications": true,
+        "darkMode": true,
+        "language": "en"
+      },
+      "courses": [2, 6],
+      "videos": [2, 6, 10],
+      "podcasts": [3, 6],
+      "articles": [3, 6, 9],
+      "earnings": {
+        "total": 12500,
+        "lastMonth": 1800,
+        "pending": 450
+      },
+      "students": 1250,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "name": "Emily Rodriguez",
+      "email": "emily.rodriguez@example.com",
+      "avatar": "/placeholder.svg",
+      "role": "admin",
+      "plan": "premium",
+      "status": "active",
+      "joinedAt": "2022-09-05",
+      "lastLogin": "2023-06-20",
+      "bio": "Platform administrator and content curator.",
+      "location": "Austin, TX",
+      "social": {
+        "twitter": "emilyrodriguez",
+        "linkedin": "emily-rodriguez-admin"
+      },
+      "permissions": ["manage_users", "manage_content", "manage_settings", "view_analytics", "manage_payments"]
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "email": "david.kim@example.com",
+      "avatar": "/placeholder.svg",
+      "role": "user",
+      "plan": "premium",
+      "status": "active",
+      "joinedAt": "2023-03-12",
+      "lastLogin": "2023-06-18",
+      "bio": "Data scientist with a background in statistics and machine learning.",
+      "location": "Boston, MA",
+      "social": {
+        "twitter": "davidkim",
+        "github": "davidkim",
+        "linkedin": "david-kim-data"
+      },
+      "preferences": {
+        "emailNotifications": false,
+        "darkMode": true,
+        "language": "en"
+      },
+      "enrolledCourses": [2, 4, 9],
+      "completedCourses": [],
+      "watchedVideos": [4, 8, 11],
+      "listenedPodcasts": [2, 4, 7],
+      "readArticles": [4, 10],
+      "bookmarks": {
+        "courses": [8, 10],
+        "videos": [8, 11, 12],
+        "podcasts": [7, 11],
+        "articles": [4, 10, 11],
+        "roadmaps": [2, 10]
+      },
+      "progress": {
+        "courses": [
+          { "id": 2, "progress": 75, "lastAccessed": "2023-06-16" },
+          { "id": 4, "progress": 50, "lastAccessed": "2023-06-18" },
+          { "id": 9, "progress": 15, "lastAccessed": "2023-06-17" }
+        ],
+        "roadmaps": [{ "id": 2, "progress": 60, "lastAccessed": "2023-06-15" }]
+      },
+      "certificates": []
+    }
+  ]
+}

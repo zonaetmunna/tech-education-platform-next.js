@@ -1,0 +1,224 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Modern Web Development",
+      "description": "Learn the latest web development techniques with React, Next.js, and more.",
+      "longDescription": "Learn the latest web development techniques with React, Next.js, and more. This comprehensive course covers everything from the basics of HTML and CSS to advanced React patterns and server-side rendering with Next.js.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 12,
+      "level": "Intermediate",
+      "instructor": "John Doe",
+      "instructorAvatar": "/placeholder.svg",
+      "instructorBio": "John is a senior web developer with over 10 years of experience. He has worked with companies like Google and Facebook, and now focuses on teaching the next generation of developers.",
+      "premium": true,
+      "category": "Web Development",
+      "tags": ["React", "Next.js", "JavaScript"],
+      "rating": 4.8,
+      "students": 1250,
+      "updatedAt": "2023-04-15",
+      "language": "English",
+      "requirements": [
+        "Basic knowledge of HTML, CSS, and JavaScript",
+        "Familiarity with ES6+ syntax",
+        "Node.js installed on your computer"
+      ],
+      "whatYouWillLearn": [
+        "Build modern, responsive web applications with React",
+        "Implement server-side rendering with Next.js",
+        "Manage state effectively with React hooks and context",
+        "Create reusable components and custom hooks",
+        "Deploy your applications to production",
+        "Optimize performance and accessibility"
+      ],
+      "modules": [
+        {
+          "title": "Introduction to Modern Web Development",
+          "lessons": [
+            { "title": "Course Overview", "duration": "10:15", "type": "video" },
+            { "title": "Setting Up Your Development Environment", "duration": "15:30", "type": "video" },
+            { "title": "Modern JavaScript Essentials", "duration": "25:45", "type": "video" },
+            { "title": "Module Quiz", "type": "quiz" }
+          ]
+        },
+        {
+          "title": "React Fundamentals",
+          "lessons": [
+            { "title": "Introduction to React", "duration": "20:10", "type": "video" },
+            { "title": "Components and Props", "duration": "18:45", "type": "video" },
+            { "title": "State and Lifecycle", "duration": "22:30", "type": "video" },
+            { "title": "Handling Events", "duration": "15:20", "type": "video" },
+            { "title": "React Hooks", "duration": "30:15", "type": "video" },
+            { "title": "Building a Simple React App", "duration": "45:00", "type": "video" },
+            { "title": "Module Assignment", "type": "assignment" }
+          ]
+        },
+        {
+          "title": "Next.js and Server-Side Rendering",
+          "lessons": [
+            { "title": "Introduction to Next.js", "duration": "22:15", "type": "video" },
+            { "title": "Pages and Routing", "duration": "18:30", "type": "video" },
+            { "title": "Data Fetching Methods", "duration": "25:45", "type": "video" },
+            { "title": "API Routes", "duration": "20:10", "type": "video" },
+            { "title": "Deployment and Optimization", "duration": "30:00", "type": "video" },
+            { "title": "Final Project", "type": "project" }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Sarah Johnson",
+          "avatar": "/placeholder.svg",
+          "rating": 5,
+          "date": "2023-03-15",
+          "comment": "This course was exactly what I needed to level up my web development skills. The instructor explains complex concepts in a way that's easy to understand, and the projects are practical and relevant."
+        },
+        {
+          "id": 2,
+          "user": "Michael Chen",
+          "avatar": "/placeholder.svg",
+          "rating": 4,
+          "date": "2023-02-28",
+          "comment": "Great course overall. I especially enjoyed the sections on React hooks and Next.js. The only reason I'm not giving 5 stars is that some of the content could be more up-to-date with the latest versions."
+        },
+        {
+          "id": 3,
+          "user": "Emily Rodriguez",
+          "avatar": "/placeholder.svg",
+          "rating": 5,
+          "date": "2023-04-02",
+          "comment": "I've taken several web development courses, and this is by far the best one. The instructor's teaching style is engaging, and the course content is comprehensive without being overwhelming."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Science Fundamentals",
+      "description": "Master the basics of data science, statistics, and machine learning.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 15,
+      "level": "Beginner",
+      "instructor": "Jane Smith",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Data Science",
+      "tags": ["Python", "Statistics", "Machine Learning"],
+      "rating": 4.6,
+      "students": 980,
+      "updatedAt": "2023-05-20"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Development",
+      "description": "Build cross-platform mobile apps with React Native and Flutter.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 10,
+      "level": "Intermediate",
+      "instructor": "Mike Johnson",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Mobile Development",
+      "tags": ["React Native", "Flutter", "Mobile"],
+      "rating": 4.7,
+      "students": 850,
+      "updatedAt": "2023-03-10"
+    },
+    {
+      "id": 4,
+      "title": "Advanced JavaScript Concepts",
+      "description": "Deep dive into advanced JavaScript concepts like closures, prototypes, and async programming.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 8,
+      "level": "Advanced",
+      "instructor": "Sarah Williams",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Web Development",
+      "tags": ["JavaScript", "ES6", "Async"],
+      "rating": 4.9,
+      "students": 1500,
+      "updatedAt": "2023-06-05"
+    },
+    {
+      "id": 5,
+      "title": "Python for Beginners",
+      "description": "Start your programming journey with Python, the most beginner-friendly language.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 6,
+      "level": "Beginner",
+      "instructor": "David Chen",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Programming",
+      "tags": ["Python", "Beginners", "Programming Basics"],
+      "rating": 4.5,
+      "students": 2100,
+      "updatedAt": "2023-02-18"
+    },
+    {
+      "id": 6,
+      "title": "DevOps and CI/CD Pipelines",
+      "description": "Learn how to implement DevOps practices and build CI/CD pipelines for your projects.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 14,
+      "level": "Intermediate",
+      "instructor": "Alex Johnson",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "DevOps",
+      "tags": ["Docker", "Jenkins", "GitHub Actions"],
+      "rating": 4.7,
+      "students": 750,
+      "updatedAt": "2023-05-12"
+    },
+    {
+      "id": 7,
+      "title": "UI/UX Design Principles",
+      "description": "Master the fundamentals of UI/UX design and create beautiful, user-friendly interfaces.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 9,
+      "level": "Beginner",
+      "instructor": "Emily Parker",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Design",
+      "tags": ["UI", "UX", "Figma"],
+      "rating": 4.6,
+      "students": 1100,
+      "updatedAt": "2023-04-28"
+    },
+    {
+      "id": 8,
+      "title": "Blockchain Development",
+      "description": "Learn how to build decentralized applications on Ethereum and other blockchain platforms.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 16,
+      "level": "Advanced",
+      "instructor": "Michael Lee",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Blockchain",
+      "tags": ["Ethereum", "Solidity", "Web3"],
+      "rating": 4.8,
+      "students": 620,
+      "updatedAt": "2023-06-10"
+    },
+    {
+      "id": 9,
+      "title": "Machine Learning with TensorFlow",
+      "description": "Build and deploy machine learning models using TensorFlow and Keras.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "hours": 18,
+      "level": "Advanced",
+      "instructor": "Lisa Wang",
+      "instructorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Data Science",
+      "tags": ["TensorFlow", "Machine Learning", "Deep Learning"],
+      "rating": 4.9,
+      "students": 890,
+      "updatedAt": "2023-05-15"
+    }
+  ]
+}

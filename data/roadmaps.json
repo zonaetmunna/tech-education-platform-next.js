@@ -1,0 +1,353 @@
+{
+  "roadmaps": [
+    {
+      "id": 1,
+      "title": "Frontend Developer Roadmap",
+      "description": "A comprehensive learning path to become a professional frontend developer.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Beginner to Advanced",
+      "duration": "6-12 months",
+      "author": "John Doe",
+      "authorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Web Development",
+      "tags": ["HTML", "CSS", "JavaScript", "React", "Frontend"],
+      "students": 15800,
+      "rating": 4.8,
+      "updatedAt": "2023-05-15",
+      "overview": "This roadmap guides you through all the essential skills and technologies needed to become a professional frontend developer. From the fundamentals of HTML, CSS, and JavaScript to advanced frameworks like React, you'll learn everything in a structured, step-by-step approach.",
+      "prerequisites": ["Basic computer skills", "Understanding of how the web works", "Problem-solving mindset"],
+      "learningPath": [
+        {
+          "title": "Web Fundamentals",
+          "description": "Learn the core technologies that power the web.",
+          "modules": [
+            {
+              "title": "HTML Foundations",
+              "description": "Master the building blocks of web pages.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "HTML Crash Course",
+                  "link": "/courses/1"
+                },
+                {
+                  "type": "article",
+                  "title": "Semantic HTML Guide",
+                  "link": "/blog/1"
+                }
+              ]
+            },
+            {
+              "title": "CSS Essentials",
+              "description": "Learn how to style web pages effectively.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "CSS Fundamentals",
+                  "link": "/courses/2"
+                },
+                {
+                  "type": "video",
+                  "title": "CSS Layout Techniques",
+                  "link": "/videos/3"
+                }
+              ]
+            },
+            {
+              "title": "JavaScript Basics",
+              "description": "Understand the core concepts of JavaScript programming.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "JavaScript for Beginners",
+                  "link": "/courses/3"
+                },
+                {
+                  "type": "article",
+                  "title": "Understanding JavaScript Scope",
+                  "link": "/blog/2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Frontend Development",
+          "description": "Build on the fundamentals with more advanced concepts and tools.",
+          "modules": [
+            {
+              "title": "Advanced JavaScript",
+              "description": "Master modern JavaScript features and patterns.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "Advanced JavaScript Concepts",
+                  "link": "/courses/4"
+                },
+                {
+                  "type": "video",
+                  "title": "Asynchronous JavaScript",
+                  "link": "/videos/5"
+                }
+              ]
+            },
+            {
+              "title": "Responsive Web Design",
+              "description": "Create websites that work well on all devices.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "Responsive Design Masterclass",
+                  "link": "/courses/5"
+                },
+                {
+                  "type": "article",
+                  "title": "Modern CSS Techniques",
+                  "link": "/blog/5"
+                }
+              ]
+            },
+            {
+              "title": "Frontend Build Tools",
+              "description": "Learn essential tools for modern frontend development.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "Webpack and Babel",
+                  "link": "/courses/6"
+                },
+                {
+                  "type": "video",
+                  "title": "NPM and Package Management",
+                  "link": "/videos/6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "React Development",
+          "description": "Master the most popular frontend framework.",
+          "modules": [
+            {
+              "title": "React Fundamentals",
+              "description": "Learn the core concepts of React.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "React for Beginners",
+                  "link": "/courses/7"
+                },
+                {
+                  "type": "article",
+                  "title": "Understanding React's Virtual DOM",
+                  "link": "/blog/1"
+                }
+              ]
+            },
+            {
+              "title": "State Management",
+              "description": "Master different approaches to managing state in React applications.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "Redux and Context API",
+                  "link": "/courses/8"
+                },
+                {
+                  "type": "article",
+                  "title": "State Management in React",
+                  "link": "/blog/7"
+                }
+              ]
+            },
+            {
+              "title": "React Ecosystem",
+              "description": "Explore the wider React ecosystem and advanced patterns.",
+              "resources": [
+                {
+                  "type": "course",
+                  "title": "Advanced React Patterns",
+                  "link": "/courses/9"
+                },
+                {
+                  "type": "video",
+                  "title": "React Performance Optimization",
+                  "link": "/videos/9"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "careerOpportunities": [
+        "Frontend Developer",
+        "UI Developer",
+        "React Developer",
+        "Web Developer",
+        "UI/UX Developer"
+      ],
+      "testimonials": [
+        {
+          "name": "Sarah Johnson",
+          "avatar": "/placeholder.svg",
+          "role": "Junior Frontend Developer",
+          "company": "Tech Innovations",
+          "testimonial": "This roadmap was instrumental in my journey to becoming a frontend developer. The structured approach helped me focus on the right skills at the right time."
+        },
+        {
+          "name": "Michael Chen",
+          "avatar": "/placeholder.svg",
+          "role": "UI Engineer",
+          "company": "StartupX",
+          "testimonial": "I followed this roadmap while transitioning from design to development. The curated resources saved me countless hours of searching and helped me land my first dev job."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Science Career Path",
+      "description": "A complete guide to becoming a data scientist from scratch.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Beginner to Advanced",
+      "duration": "8-14 months",
+      "author": "Lisa Wang",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Data Science",
+      "tags": ["Python", "Machine Learning", "Statistics", "Data Analysis"],
+      "students": 12400,
+      "rating": 4.7,
+      "updatedAt": "2023-06-10"
+    },
+    {
+      "id": 3,
+      "title": "Full-Stack JavaScript Developer",
+      "description": "Master both frontend and backend development with JavaScript.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate",
+      "duration": "6-10 months",
+      "author": "Mike Johnson",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Web Development",
+      "tags": ["JavaScript", "Node.js", "React", "MongoDB", "Full-Stack"],
+      "students": 9800,
+      "rating": 4.9,
+      "updatedAt": "2023-04-20"
+    },
+    {
+      "id": 4,
+      "title": "DevOps Engineering Path",
+      "description": "Learn the skills needed to become a DevOps engineer.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate to Advanced",
+      "duration": "8-12 months",
+      "author": "Alex Johnson",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "DevOps",
+      "tags": ["Docker", "Kubernetes", "CI/CD", "Cloud", "Infrastructure as Code"],
+      "students": 7500,
+      "rating": 4.6,
+      "updatedAt": "2023-05-05"
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Development with React Native",
+      "description": "Build cross-platform mobile apps with React Native.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate",
+      "duration": "4-8 months",
+      "author": "Sarah Williams",
+      "authorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Mobile Development",
+      "tags": ["React Native", "JavaScript", "Mobile", "iOS", "Android"],
+      "students": 8200,
+      "rating": 4.5,
+      "updatedAt": "2023-03-15"
+    },
+    {
+      "id": 6,
+      "title": "Cloud Architecture on AWS",
+      "description": "Master cloud architecture and services on Amazon Web Services.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate to Advanced",
+      "duration": "6-10 months",
+      "author": "David Chen",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Cloud Computing",
+      "tags": ["AWS", "Cloud", "Architecture", "Infrastructure", "Serverless"],
+      "students": 6800,
+      "rating": 4.8,
+      "updatedAt": "2023-06-01"
+    },
+    {
+      "id": 7,
+      "title": "UI/UX Design Fundamentals",
+      "description": "Learn the principles and tools of modern UI/UX design.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Beginner to Intermediate",
+      "duration": "3-6 months",
+      "author": "Emily Parker",
+      "authorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Design",
+      "tags": ["UI", "UX", "Design", "Figma", "User Research"],
+      "students": 10500,
+      "rating": 4.7,
+      "updatedAt": "2023-04-10"
+    },
+    {
+      "id": 8,
+      "title": "Blockchain Developer Path",
+      "description": "Become a blockchain developer and build decentralized applications.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate to Advanced",
+      "duration": "6-10 months",
+      "author": "Michael Lee",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Blockchain",
+      "tags": ["Blockchain", "Ethereum", "Solidity", "Web3", "Smart Contracts"],
+      "students": 5200,
+      "rating": 4.6,
+      "updatedAt": "2023-05-20"
+    },
+    {
+      "id": 9,
+      "title": "Python Backend Development",
+      "description": "Master backend development with Python and popular frameworks.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Intermediate",
+      "duration": "5-9 months",
+      "author": "Robert Chen",
+      "authorAvatar": "/placeholder.svg",
+      "premium": false,
+      "category": "Backend Development",
+      "tags": ["Python", "Django", "Flask", "API", "Backend"],
+      "students": 7800,
+      "rating": 4.5,
+      "updatedAt": "2023-03-25"
+    },
+    {
+      "id": 10,
+      "title": "Artificial Intelligence Specialist",
+      "description": "Comprehensive path to becoming an AI specialist.",
+      "image": "/placeholder.svg?height=200&width=400",
+      "level": "Advanced",
+      "duration": "10-16 months",
+      "author": "Dr. James Wilson",
+      "authorAvatar": "/placeholder.svg",
+      "premium": true,
+      "category": "Artificial Intelligence",
+      "tags": ["AI", "Machine Learning", "Deep Learning", "Neural Networks", "Computer Vision"],
+      "students": 4900,
+      "rating": 4.9,
+      "updatedAt": "2023-06-15"
+    }
+  ]
+}

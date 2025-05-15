@@ -1,0 +1,121 @@
+{
+  "platform": {
+    "totalUsers": 25000,
+    "activeUsers": 18500,
+    "premiumUsers": 8200,
+    "totalCourses": 120,
+    "totalVideos": 850,
+    "totalPodcasts": 95,
+    "totalBlogPosts": 210,
+    "totalRoadmaps": 25
+  },
+  "engagement": {
+    "dailyActiveUsers": 5200,
+    "weeklyActiveUsers": 12800,
+    "monthlyActiveUsers": 18500,
+    "averageSessionDuration": 28.5,
+    "averageCoursesPerUser": 3.2,
+    "courseCompletionRate": 68,
+    "contentEngagement": {
+      "courses": 42,
+      "videos": 28,
+      "podcasts": 15,
+      "blog": 10,
+      "roadmaps": 5
+    },
+    "deviceUsage": {
+      "desktop": 65,
+      "mobile": 30,
+      "tablet": 5
+    },
+    "peakHours": [
+      { "hour": 9, "users": 2800 },
+      { "hour": 12, "users": 3200 },
+      { "hour": 15, "users": 3500 },
+      { "hour": 19, "users": 4100 },
+      { "hour": 22, "users": 3800 }
+    ]
+  },
+  "revenue": {
+    "totalRevenue": 1250000,
+    "monthlyRevenue": 125000,
+    "yearlyGrowth": 35,
+    "averageRevenuePerUser": 152.5,
+    "subscriptionBreakdown": {
+      "monthly": 65,
+      "yearly": 35
+    },
+    "revenueByMonth": [
+      { "month": "Jan", "revenue": 95000 },
+      { "month": "Feb", "revenue": 98000 },
+      { "month": "Mar", "revenue": 105000 },
+      { "month": "Apr", "revenue": 110000 },
+      { "month": "May", "revenue": 118000 },
+      { "month": "Jun", "revenue": 125000 }
+    ],
+    "churnRate": 4.2,
+    "lifetimeValue": 850
+  },
+  "content": {
+    "mostPopularCourses": [
+      { "id": 1, "title": "Modern Web Development", "students": 1250 },
+      { "id": 5, "title": "Python for Beginners", "students": 2100 },
+      { "id": 4, "title": "Advanced JavaScript Concepts", "students": 1500 },
+      { "id": 7, "title": "UI/UX Design Principles", "students": 1100 },
+      { "id": 2, "title": "Data Science Fundamentals", "students": 980 }
+    ],
+    "mostViewedVideos": [
+      { "id": 9, "title": "Git & GitHub for Beginners", "views": 16500 },
+      { "id": 3, "title": "CSS Grid Layout Masterclass", "views": 15200 },
+      { "id": 7, "title": "Responsive Web Design Principles", "views": 13800 },
+      { "id": 1, "title": "Introduction to React Hooks", "views": 12500 },
+      { "id": 10, "title": "JavaScript ES6+ Features", "views": 10200 }
+    ],
+    "mostPopularCategories": [
+      { "category": "Web Development", "percentage": 35 },
+      { "category": "Data Science", "percentage": 25 },
+      { "category": "Mobile Development", "percentage": 15 },
+      { "category": "DevOps", "percentage": 12 },
+      { "category": "Design", "percentage": 8 },
+      { "category": "Blockchain", "percentage": 5 }
+    ],
+    "contentGrowth": {
+      "courses": 25,
+      "videos": 40,
+      "podcasts": 30,
+      "blog": 35,
+      "roadmaps": 20
+    }
+  },
+  "growth": {
+    "userGrowth": {
+      "last30Days": 1200,
+      "last90Days": 3500,
+      "last12Months": 12000
+    },
+    "userGrowthByMonth": [
+      { "month": "Jan", "users": 1800 },
+      { "month": "Feb", "users": 1950 },
+      { "month": "Mar", "users": 2100 },
+      { "month": "Apr", "users": 2250 },
+      { "month": "May", "users": 2400 },
+      { "month": "Jun", "users": 2550 }
+    ],
+    "conversionRate": {
+      "visitorsToSignup": 12.5,
+      "freeToSubscriber": 8.2
+    },
+    "acquisitionChannels": {
+      "organic": 45,
+      "direct": 20,
+      "referral": 15,
+      "social": 12,
+      "email": 8
+    },
+    "retentionRate": {
+      "after30Days": 85,
+      "after90Days": 72,
+      "after12Months": 58
+    }
+  }
+}

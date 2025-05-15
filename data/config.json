@@ -1,0 +1,171 @@
+{
+  "site": {
+    "name": "TechEdu Platform",
+    "description": "A comprehensive platform for tech education and skill development",
+    "logo": "/logo.svg",
+    "favicon": "/favicon.ico",
+    "url": "https://techedu-platform.com",
+    "social": {
+      "twitter": "techeduplatform",
+      "github": "techeduplatform",
+      "linkedin": "techedu-platform",
+      "youtube": "techeduplatform"
+    },
+    "contact": {
+      "email": "support@techedu-platform.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Tech Street, San Francisco, CA 94107"
+    },
+    "legal": {
+      "termsUrl": "/terms",
+      "privacyUrl": "/privacy",
+      "cookieUrl": "/cookie-policy"
+    },
+    "meta": {
+      "keywords": "tech education, programming, web development, data science, machine learning",
+      "author": "TechEdu Platform Team",
+      "ogImage": "/og-image.jpg"
+    }
+  },
+  "features": {
+    "courses": true,
+    "videos": true,
+    "podcasts": true,
+    "blog": true,
+    "roadmaps": true,
+    "codePlayground": true,
+    "community": true,
+    "certificates": true,
+    "darkMode": true,
+    "search": true,
+    "notifications": true,
+    "bookmarks": true,
+    "progressTracking": true,
+    "subscriptions": true,
+    "adminPanel": true
+  },
+  "subscriptions": {
+    "enabled": true,
+    "currency": "USD",
+    "plans": [
+      {
+        "id": "free",
+        "name": "Free",
+        "description": "Basic access to the platform",
+        "price": 0,
+        "interval": "month",
+        "features": ["Access to free courses", "Limited video content", "Blog access", "Basic roadmaps"],
+        "limitations": ["No premium content", "No certificates", "Limited progress tracking", "No code playground"],
+        "recommended": false,
+        "buttonText": "Sign Up Free"
+      },
+      {
+        "id": "monthly",
+        "name": "Premium Monthly",
+        "description": "Full access to all platform features",
+        "price": 19.99,
+        "interval": "month",
+        "features": [
+          "Access to all courses",
+          "Unlimited video content",
+          "All podcasts",
+          "Advanced roadmaps",
+          "Code playground",
+          "Certificates",
+          "Priority support",
+          "Download resources"
+        ],
+        "limitations": [],
+        "recommended": true,
+        "buttonText": "Start Monthly Plan",
+        "savePercent": 0
+      },
+      {
+        "id": "yearly",
+        "name": "Premium Yearly",
+        "description": "Full access with 2 months free",
+        "price": 199.99,
+        "interval": "year",
+        "features": [
+          "All Premium Monthly features",
+          "2 months free",
+          "Early access to new content",
+          "Exclusive webinars"
+        ],
+        "limitations": [],
+        "recommended": false,
+        "buttonText": "Start Yearly Plan",
+        "savePercent": 16
+      }
+    ],
+    "payment": {
+      "providers": ["stripe", "paypal"],
+      "secureCheckout": true,
+      "refundPolicy": "30-day money-back guarantee"
+    }
+  },
+  "email": {
+    "provider": "sendgrid",
+    "templates": {
+      "welcome": "welcome-template",
+      "resetPassword": "reset-password-template",
+      "courseCompletion": "course-completion-template",
+      "newsletter": "newsletter-template",
+      "receiptTemplate": "receipt-template"
+    },
+    "sender": {
+      "name": "TechEdu Platform",
+      "email": "noreply@techedu-platform.com"
+    }
+  },
+  "integrations": {
+    "analytics": {
+      "provider": "google-analytics",
+      "trackingId": "UA-XXXXXXXXX-X"
+    },
+    "auth": {
+      "providers": ["google", "github", "email"]
+    },
+    "storage": {
+      "provider": "aws-s3",
+      "bucket": "techedu-platform-assets"
+    },
+    "search": {
+      "provider": "algolia",
+      "appId": "XXXXXXXXXX",
+      "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "indexName": "techedu_content"
+    },
+    "payments": {
+      "provider": "stripe",
+      "publicKey": "pk_test_xxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "appearance": {
+    "theme": {
+      "light": {
+        "primary": "#0070f3",
+        "secondary": "#6c757d",
+        "accent": "#f59e0b",
+        "background": "#ffffff",
+        "text": "#333333"
+      },
+      "dark": {
+        "primary": "#3b82f6",
+        "secondary": "#9ca3af",
+        "accent": "#f59e0b",
+        "background": "#1f2937",
+        "text": "#f3f4f6"
+      }
+    },
+    "fonts": {
+      "heading": "Inter, sans-serif",
+      "body": "Inter, sans-serif",
+      "code": "Fira Code, monospace"
+    },
+    "logo": {
+      "light": "/logo-light.svg",
+      "dark": "/logo-dark.svg"
+    }
+  }
+}
