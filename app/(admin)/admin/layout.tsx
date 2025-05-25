@@ -1,10 +1,14 @@
-import type React from "react"
+import type React from "react";
 
-import { AuthCheck } from "@/components/auth-check"
-import { AdminHeader } from "@/components/admin/admin-header"
-import { AdminSidebar } from "@/components/admin/admin-sidebar"
+import { AdminHeader } from "@/components/admin/admin-header";
+import { AdminSidebar } from "@/components/admin/admin-sidebar";
+import { AuthCheck } from "@/components/auth-check";
 
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
+export default function AdminLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <AuthCheck requiredRole="admin">
       <div className="flex min-h-screen flex-col">
@@ -17,5 +21,5 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         </div>
       </div>
     </AuthCheck>
-  )
+  );
 }

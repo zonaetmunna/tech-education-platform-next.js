@@ -1,10 +1,7 @@
-"use client"
+"use client";
 
-import type React from "react"
+import type React from "react";
 
-import { useState } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
 import {
   BarChart3,
   BookOpen,
@@ -19,36 +16,43 @@ import {
   ShieldCheck,
   Users,
   Video,
-} from "lucide-react"
+} from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
 
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { Separator } from "@/components/ui/separator"
+import { Button } from "@/components/ui/button";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Separator } from "@/components/ui/separator";
+import { cn } from "@/lib/utils";
 
 type NavItem = {
-  title: string
-  href: string
-  icon: React.ElementType
-  submenu?: NavItem[]
-}
+  title: string;
+  href: string;
+  icon: React.ElementType;
+  submenu?: NavItem[];
+};
 
 export function AdminSidebar() {
-  const pathname = usePathname()
+  const pathname = usePathname();
   const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({
     content: true,
     users: true,
-  })
+  });
 
   const toggleGroup = (group: string) => {
     setOpenGroups((prev) => ({
       ...prev,
       [group]: !prev[group],
-    }))
-  }
+    }));
+  };
 
-  const isActive = (path: string) => pathname === path
+  const isActive = (path: string) => pathname === path;
 
   const navItems: NavItem[] = [
     {
@@ -142,7 +146,7 @@ export function AdminSidebar() {
         },
       ],
     },
-  ]
+  ];
 
   return (
     <div className="flex h-full flex-col border-r bg-background">
@@ -174,7 +178,8 @@ export function AdminSidebar() {
                       variant="ghost"
                       className={cn(
                         "w-full justify-between",
-                        pathname.startsWith(item.href) && "bg-accent text-accent-foreground",
+                        pathname.startsWith(item.href) &&
+                          "bg-accent text-accent-foreground"
                       )}
                     >
                       <span className="flex items-center">
@@ -184,7 +189,7 @@ export function AdminSidebar() {
                       <ChevronDown
                         className={cn(
                           "h-4 w-4 transition-transform",
-                          openGroups[item.title.toLowerCase()] && "rotate-180",
+                          openGroups[item.title.toLowerCase()] && "rotate-180"
                         )}
                       />
                     </Button>
@@ -192,12 +197,17 @@ export function AdminSidebar() {
                   <CollapsibleContent className="pl-6 pt-1">
                     <div className="space-y-1">
                       {item.submenu.map((subItem) => (
-                        <Link key={subItem.href} href={subItem.href} className="flex w-full">
+                        <Link
+                          key={subItem.href}
+                          href={subItem.href}
+                          className="flex w-full"
+                        >
                           <Button
                             variant="ghost"
                             className={cn(
                               "w-full justify-start",
-                              isActive(subItem.href) && "bg-accent text-accent-foreground",
+                              isActive(subItem.href) &&
+                                "bg-accent text-accent-foreground"
                             )}
                           >
                             <subItem.icon className="mr-2 h-4 w-4" />
@@ -208,20 +218,23 @@ export function AdminSidebar() {
                     </div>
                   </CollapsibleContent>
                 </Collapsible>
-              )
+              );
             }
 
             return (
               <Link key={item.href} href={item.href} className="flex w-full">
                 <Button
                   variant="ghost"
-                  className={cn("w-full justify-start", isActive(item.href) && "bg-accent text-accent-foreground")}
+                  className={cn(
+                    "w-full justify-start",
+                    isActive(item.href) && "bg-accent text-accent-foreground"
+                  )}
                 >
                   <item.icon className="mr-2 h-4 w-4" />
                   {item.title}
                 </Button>
               </Link>
-            )
+            );
           })}
         </div>
       </ScrollArea>
@@ -232,5 +245,5 @@ export function AdminSidebar() {
         </div>
       </div>
     </div>
-  )
+  );
 }

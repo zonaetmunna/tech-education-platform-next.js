@@ -2,9 +2,6 @@
 
 import type React from "react"
 
-import { useState } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
 import {
   BookOpen,
   Code,
@@ -20,7 +17,11 @@ import {
   User,
   Video,
 } from "lucide-react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import { useState } from "react"
 
+import { ModeToggle } from "@/components/mode-toggle"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -36,11 +37,11 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarProvider,
   SidebarSeparator,
   SidebarTrigger,
   useSidebar,
 } from "@/components/ui/sidebar"
-import { ModeToggle } from "@/components/mode-toggle"
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
@@ -79,9 +80,10 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="flex min-h-screen">
-      <Sidebar variant="sidebar" collapsible="icon">
-        <SidebarHeader>
-          <div className="flex items-center gap-2 px-2">
+      <SidebarProvider>
+        <Sidebar variant="sidebar" collapsible="icon">
+          <SidebarHeader>
+            <div className="flex items-center gap-2 px-2">
             <Link href="/" className="flex items-center gap-2">
               <div className="rounded-md bg-primary p-1">
                 <BookOpen className="h-5 w-5 text-primary-foreground" />
@@ -203,8 +205,9 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
           <footer className="border-t py-4 text-center text-sm text-muted-foreground">
             © {new Date().getFullYear()} Tech Education Platform. All rights reserved.
           </footer>
-        </div>
-      </SidebarInset>
+          </div>
+        </SidebarInset>
+      </SidebarProvider>
     </div>
-  )
+  );
 }

@@ -1,14 +1,14 @@
+import { BookOpen, Bookmark, Filter, Mic, Search, Trash2, Video } from "lucide-react"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { BookOpen, Bookmark, Filter, Mic, Search, Trash2, Video } from "lucide-react"
 
+import { DashboardLayout } from "@/components/dashboard-layout"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { DashboardLayout } from "@/components/dashboard-layout"
 
 export const metadata: Metadata = {
   title: "Bookmarks | Tech Education Platform",

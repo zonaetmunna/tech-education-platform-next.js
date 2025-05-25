@@ -1,11 +1,11 @@
-import type { Metadata } from "next"
 import { BarChart3, BookOpen, Calendar, Download, LineChart, PieChart, Users } from "lucide-react"
+import type { Metadata } from "next"
 
+import { DashboardLayout } from "@/components/dashboard-layout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { DashboardLayout } from "@/components/dashboard-layout"
 
 export const metadata: Metadata = {
   title: "Analytics | Tech Education Platform",
